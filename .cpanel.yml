@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ovsa85241095/public_html/panel5/ 
-    - /bin/cp -r * $DEPLOYPATH 
-    - /bin/cp * $DEPLOYPATH 
+    - /bin/cp -r view/h.txt $DEPLOYPATH   
