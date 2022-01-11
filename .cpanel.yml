@@ -1,9 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ovsa85241095/public_html/panel5/
+    - export DEPLOYPATH=/home/ovsa85241095/public_html/panel5/   
+    - /bin/cp -r app $DEPLOYPATH     
     - /bin/cp -r nemonehe $DEPLOYPATH     
-    - /bin/cp -r veiw $DEPLOYPATH     
+    - /bin/cp -r veiw $DEPLOYPATH      
     - /bin/cp * $DEPLOYPATH    
     - export DEPLOYPATH=/home/ovsa85241095/public_html/panel5/examp
     - /bin/cp -r examp/file1 $DEPLOYPATH     
